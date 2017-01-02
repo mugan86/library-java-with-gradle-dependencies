@@ -230,7 +230,7 @@ public class Run implements RunConverterIF {
     /**
      * @param low_fc min ppm
      * @param max_fc max ppm
-     * @return
+     * @return FC zones with PPM range
      */
     @Override
     public ArrayList<String> ObtainResumeOfFCZones(int low_fc, int max_fc) {
