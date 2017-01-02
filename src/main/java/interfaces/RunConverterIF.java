@@ -111,7 +111,7 @@ public interface RunConverterIF {
     /**
      * @param low_fc min ppm
      * @param max_fc max ppm
-     * @return
+     * @return FC zones with PPM range
      */
     ArrayList<String> ObtainResumeOfFCZones(int low_fc, int max_fc);
 
