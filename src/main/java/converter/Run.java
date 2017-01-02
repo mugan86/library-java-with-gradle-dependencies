@@ -218,7 +218,7 @@ public class Run implements RunConverterIF {
      *                Z5: 90-100
      * @param low_fc  min ppm
      * @param max_fc  max ppm
-     * @return
+     * @return Obtain select percent zone ppm range
      */
     @Override
     public String ObtainFCZoneWithPercent(int percent, int low_fc, int max_fc) {
