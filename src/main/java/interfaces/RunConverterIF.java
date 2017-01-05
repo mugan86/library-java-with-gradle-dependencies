@@ -115,4 +115,28 @@ public interface RunConverterIF {
      */
     ArrayList<String> ObtainResumeOfFCZones(int low_fc, int max_fc);
 
+    /**
+     * @param feets Feets to convert to metres
+     * @return Meters
+     */
+    String ConvertFeetsToMeters (int feets);
+
+    /**
+     * @param meters meters to convert to feets
+     * @return Feets
+     */
+    String ConvertMetersToFeets (int meters);
+
+    /**
+     * @param yards Yards to convert to metres
+     * @return Meters
+     */
+    String ConvertYardsToMeters (int yards);
+
+    /**
+     * @param meters Meters to convert to yards
+     * @return Yards
+     */
+    String ConvertMetersToYards (int meters);
+
 }
