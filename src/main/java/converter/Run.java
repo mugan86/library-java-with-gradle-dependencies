@@ -242,6 +242,42 @@ public class Run implements RunConverterIF {
         return fc_data;
     }
 
+    /**
+     * @param feets Feets to convert to metres
+     * @return Meters
+     */
+    @Override
+    public String ConvertFeetsToMeters(int feets) {
+        return String.valueOf(feets/3.28084);
+    }
+
+    /**
+     * @param meters meters to convert to feets
+     * @return Feets
+     */
+    @Override
+    public String ConvertMetersToFeets(int meters) {
+        return String.valueOf(meters*3.28084);
+    }
+
+    /**
+     * @param yards Yards to convert to metres
+     * @return Meters
+     */
+    @Override
+    public String ConvertYardsToMeters(int yards) {
+        return String.valueOf(yards/1.0936133333333);
+    }
+
+    /**
+     * @param meters Meters to convert to yards
+     * @return Yards
+     */
+    @Override
+    public String ConvertMetersToYards(int meters) {
+        return String.valueOf(meters*1.0936133333333);
+    }
+
 
     private int removeDecimalValue(double value)
     {
