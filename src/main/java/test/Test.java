@@ -50,5 +50,13 @@ public class Test {
             System.out.println(fc_data.get(i));
         }
 
+        //Yards - Metres
+        System.out.println("1 meter = " + converter.ConvertMetersToYards(1)+ " yards.");
+        System.out.println("1 yards = " + converter.ConvertYardsToMeters(1)+ " meters.");
+
+        //Feets - Metres
+        System.out.println("1 meter = " + converter.ConvertMetersToFeets(1)+ " feets.");
+        System.out.println("1 feet = " + converter.ConvertFeetsToMeters(1)+ " meters.");
+
     }
 }
